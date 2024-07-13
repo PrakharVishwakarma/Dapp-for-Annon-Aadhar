@@ -1,7 +1,6 @@
 const AadhaarVerification = artifacts.require("AadhaarVerification");
 
-module.exports = function(deployer) {
-    // Replace '0xYourAnonVerifierAddress' with the actual address of the Anon Aadhaar verifier contract
-    const anonVerifierAddress = '0xb7afd4631eE834080F4897C2CEa059a537604485';
-    deployer.deploy(AadhaarVerification, anonVerifierAddress);
+module.exports = function (deployer) {
+  const anonVerifierAddress = "0xc5998b1aEa4723B8D19786EfF856EC5cb7F211B2";
+  deployer.deploy(AadhaarVerification, anonVerifierAddress);
 };
