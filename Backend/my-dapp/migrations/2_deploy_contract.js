@@ -1,6 +1,6 @@
 const AadhaarVerification = artifacts.require("AadhaarVerification");
 
-module.exports = function (deployer) {
-  const anonVerifierAddress = "0xc5998b1aEa4723B8D19786EfF856EC5cb7F211B2";
-  deployer.deploy(AadhaarVerification, anonVerifierAddress);
+module.exports = function(deployer) {
+    const anonVerifierAddress = '0x4A58a77BC0Cc29077D1AF9e11CA096bA4772eF9C';
+    deployer.deploy(AadhaarVerification, anonVerifierAddress);
 };

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Web3 from 'web3';
-import AadhaarVerificationContract from './contracts/AadhaarVerification.json'; // Adjust the path if needed
+import AadhaarVerificationContract from './contracts/AadhaarVerification.json'; 
 
 const App = () => {
   const [web3, setWeb3] = useState(null);
